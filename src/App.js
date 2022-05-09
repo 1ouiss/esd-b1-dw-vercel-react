@@ -11,7 +11,7 @@ function App() {
     .then(data => {
       setUsers(data);
     })
-  })
+  }, [])
 
   return (
     <div className="App">
